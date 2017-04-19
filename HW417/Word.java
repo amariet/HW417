@@ -11,10 +11,8 @@ public class Word implements Comparable<Word>
 
   public int compareTo(Word other) 
   {
-
-     //must add code to complete 
-
-     return 1; 
+      //must add code to complete 
+      return this.orig.compareTo(other.toString());
   }
 
   public String toString() { return orig; }
